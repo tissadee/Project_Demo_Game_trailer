@@ -1,6 +1,7 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <application
-        android:label="gamerun_lady"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dino_run">
+   <application
+        android:label="dino_run"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
