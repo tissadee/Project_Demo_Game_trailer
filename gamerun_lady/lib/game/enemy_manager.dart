@@ -63,7 +63,7 @@ class EnemyManager extends Component with HasGameReference<DinoRun> {
           nFrames: 16,
           stepTime: 0.1,
           textureSize: Vector2(36, 30),
-          speedX: 80,
+          speedX: 100,
           canFly: false,
         ),
         EnemyData(
@@ -71,7 +71,7 @@ class EnemyManager extends Component with HasGameReference<DinoRun> {
           nFrames: 7,
           stepTime: 0.1,
           textureSize: Vector2(46, 30),
-          speedX: 100,
+          speedX: 130,
           canFly: true,
         ),
         EnemyData(
@@ -79,7 +79,7 @@ class EnemyManager extends Component with HasGameReference<DinoRun> {
           nFrames: 6,
           stepTime: 0.09,
           textureSize: Vector2(52, 34),
-          speedX: 150,
+          speedX: 180,
           canFly: false,
         ),
       ]);
